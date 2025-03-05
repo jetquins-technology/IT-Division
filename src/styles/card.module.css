@@ -1,0 +1,104 @@
+.card{
+    padding: 40px 30px 40px 30px;
+    border: 1px solid #D828289E;
+    width: 290px;
+    color: #fff;
+    transition:all 1s ease-out;;
+}
+.card img{
+    width: 70px;
+    height: 70px;
+}
+.card h1{
+    font-size: 1.8rem;
+    font-family: Inter Regular;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.card p{
+    font-family: Inter Regular;
+    color: #C8C8C8;
+    line-height: 1.2rem;
+    font-size:15px;
+}
+.card_section:nth-child(2),.card_section:nth-child(4){
+    margin-top: 3rem;
+}
+ .card:hover{
+    background-image:linear-gradient(to bottom, #0000,#D828289E);
+}
+
+/* -----> large card <------- */
+.card_item{
+    background: #191919;
+    border-radius: 5px;
+    padding: 37px 28px 28px 36px;
+    transition: 0s allease-in-out;
+    border-bottom: 3px solid #191919;
+    transition: transform ease 300ms;
+    margin-bottom: 30px;
+    width: 30%;
+    font-family: Inter Regular;
+    color: #999999;
+}
+
+.card_item figure{
+    background: #000;
+    padding: 12px 14px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.card_item:hover figure{
+    background: #F43334;
+}
+.card_item:hover figure img{
+    color: #fff;
+    filter: brightness(0) invert(1) !important;
+}
+.card_item:hover{
+    background-image: linear-gradient(143deg, #F43334 -24%, #191919 20%);
+    transform: translate(0, -10px);
+    border-bottom:3px solid #F43334
+}
+.card_item:hover h1{
+    color: #fff;
+}
+
+.card_item h1{
+    margin:30px 0;
+    font-size:1.5rem;
+    letter-spacing: 1.1px;
+    
+}
+.card_item p{
+    color: #999999;
+    line-height:1.6rem;
+    padding-bottom: 40px;
+}
+.card_item a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px){
+    .card{
+        width: 100%;
+    }
+    .card_section{
+        margin-bottom:30px;
+    }
+    .card_section:nth-child(2),.card_section:nth-child(4){
+        margin-top: inherit;
+    }
+
+    /* -----> larger card <----- */
+    .card_item{
+        width: 100%;
+    }
+    
+}
