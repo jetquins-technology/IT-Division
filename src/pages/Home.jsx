@@ -15,6 +15,15 @@ import comImg2 from '../assets/images/industry-img02.svg'
 import comImg3 from '../assets/images/industry-img03.svg'
 import comImg4 from '../assets/images/industry-img04.svg'
 import comImg5 from '../assets/images/industry-img05.svg'
+import usimg1 from '../assets/images/us-img01.png'
+import usimg2 from '../assets/images/us-img02.png'
+import usimg3 from '../assets/images/us-img03.png'
+import usimg4 from '../assets/images/us-img04.png'
+import ImageCard from "../components/cards/ImageCard";
+import client from '../assets/images/client.png'
+import us_left_img from '../assets/images/cyber-security-left-img.png'
+import ClientCard from "../components/cards/ClientCard";
+import threatImg from '../assets/images/threat-grid-img.svg'
 function Home() {
   return (
     <main>
@@ -66,7 +75,7 @@ function Home() {
       <section className={styles.featured_section}>
         <div className={styles.featured_bg}>
         <div className={styles.featured_heading}>
-        <h1>What we offer</h1>
+        <h1>What We Offer</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam veniam, autem facere earum facilis maxime vel? Consectetur itaque distinctio corporis?</p>
         </div>
         <div className={styles.featured_grid}>
@@ -88,9 +97,64 @@ function Home() {
 
     </section>
 
+
+     {/* -----> why choose us section <----- */}
     <section className={styles.whyChooseUs_section}>
-      
+      <div className={styles.chooseUs_container}>
+        <div className={styles.chooseUs_heading}>
+          <h1>Why Choose Us</h1>
+          <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, corrupti!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur error, voluptatem nisi laudantium dignissimos culpa. Molestias deserunt numquam inventore assumenda, perspiciatis exercitationem laborum aliquid earum hic tempore. Dignissimos deserunt laboriosam corrupti facere cumque, mollitia enim saepe, error ratione ex qui.</p>
+
+          <div className={styles.card_wrap}>
+            <ImageCard src={usimg1} heading="Trusted Company"/>
+            <ImageCard src={usimg2} heading="Strong Network"/>
+            <ImageCard src={usimg3} heading="Best Partner"/>
+            <ImageCard src={usimg4} heading="System Provider"/>
+          </div>
+        </div>
+        <div className={styles.chooseUs_img} >
+          <img src={us_left_img} alt="image"/>
+        </div>
+      </div>
     </section>
+
+     {/* -----> progress section <----- */}
+    <section className={styles.progress_section}>
+    <div className={styles.progress_container}>
+      <div className={styles.progress_lhs}>
+        <h1>We have impactful <span>results</span> </h1>
+        <figure>
+          <img src={client} alt="image"/>
+        </figure>
+      </div>
+      <div className={styles.progress_rhs}>
+        <p>Join the hundreds of businesses protected by Cybersec.</p>
+        <a>Get started today</a>
+        <div className={styles.clientCard_wrap}>
+            <ClientCard number="2,000" heading="Client protected"/>
+            <ClientCard number="30" heading="global research"/>
+            <ClientCard number="250" heading="Cyber security experts"/>
+            <ClientCard number="15" heading="Years of experience"/>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+    {/* -----> threat section <----- */}
+    <section className={styles.threat_section}>
+        <div className={styles.content_container}>
+          <div className={styles.thread_text}>
+            <h4>Need Immediate help?</h4>
+            <h1>Stay ahead of cyber <span>threats</span> </h1>
+            <p>Download our comprehensive guide for free and start securing your data today.</p>
+            <a>Know More</a>
+          </div>
+
+        </div>
+    </section>
+
     </main>
   );
 }

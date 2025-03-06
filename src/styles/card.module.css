@@ -84,6 +84,80 @@
     align-items: center;
 }
 
+/* -----> ImageCrad card <------- */
+
+.imageCard_section{
+    /* background: pink; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+}
+.imageCard_section figure{
+    background: #282828;
+    padding: 15px;
+    border-radius:40px;
+    margin-right: 20px;
+    box-shadow: #282828 0px 7px 29px 0px;
+}
+
+.imageCard_section figure img{
+    width: 40px;
+    height: 40px;
+}
+.imageCard_section span{
+    font-size: 1.1rem;
+    font-family: Inter Bold;
+}
+
+
+
+/* -----> client card <------- */
+.clientCard_box{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 50%;
+}
+.client_text{
+    padding-bottom: 20px;
+}
+.client_text h1{
+    font-size: 2.7rem;
+    font-family: Inter Bold;
+    color: #fff;
+    padding-bottom:10px;
+}
+.client_text h2{
+    font-size: 1.1rem;
+    font-family: Inter Light;
+    color: #C8C8C8;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.client_text span{
+    background-image: linear-gradient(180deg, red 40%, #ffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+    font-size:2.5rem;
+    vertical-align: text-top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px){
     .card{

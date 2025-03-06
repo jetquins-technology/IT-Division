@@ -73,11 +73,11 @@
   justify-content: space-between;
 }
 
-/* ----> grid_section <----- */
+/* ----> featured_section <----- */
 
 .featured_bg{
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-image: linear-gradient(#000000d9,#000000e2),url('../assets/images/Tech1.png');
   background-position: center center;
   background-repeat: no-repeat;
@@ -127,7 +127,200 @@
   font-family: Inter Medium;
   letter-spacing: 1.2px;
   font-size: 17px;
-  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* ----> why choose us section <----- */
+.whyChooseUs_section{
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  background-image: linear-gradient(134deg, #2E1C1C 17%, #191919 33%);
+}
+.chooseUs_container{
+  padding: 100px 150px 0 ;
+  color: #ffff;
+  display: flex;
+}
+.chooseUs_heading, .chooseUs_img{
+  width: 50%;
+}
+.chooseUs_heading{
+  padding-left: 20px;
+}
+
+.chooseUs_heading h1{  
+  font-size:0.9rem;
+  font-family: Inter Regular;
+  letter-spacing: 1.1px;
+  border: 1px solid;
+  border-image-slice: 1;
+  display: inline;
+  padding: 7px;
+  
+}
+.chooseUs_heading h1{
+  border-image-source: linear-gradient(to left, #0000, red);
+}
+.chooseUs_heading h2{
+  font-family: Inter Medium;
+  margin: 30px 0;
+}
+.chooseUs_heading p{
+  font-size: 15px;
+  font-family: Inter Regular;
+  line-height: 1.4rem;
+  text-align: justify;
+  color: rgb(200, 200, 200);
+}
+
+.card_wrap{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;  
+  margin-top:30px;
+}
+
+.chooseUs_img{
+  text-align: end;
+}
+
+
+/* ----> progress section <----- */
+.progress_section{
+  width: 100%;
+  background: #1e1e1e;
+  position: relative;
+
+}
+.progress_section::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  background-image: url("../assets/images//overlay.png");
+  --background-overlay: '';
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 18% auto;
+}
+.progress_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 150px 0;
+}
+.progress_lhs, .progress_rhs{
+  width: 50%;
+  
+}
+.progress_lhs h1{
+  font-size:3.5rem;
+  font-family: Inter Bold;
+  color: #fff;
+}
+.progress_lhs h1 span, .thread_text span{
+  background-image: linear-gradient(180deg, red 40%, #ffff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.progress_lhs figure{
+  width: 100%;
+  height: 70%;
+}
+.progress_lhs figure img{
+  width: 100%;
+  height: 100%;
+}
+.progress_rhs{
+  padding:20px 0 0 70px;
+}
+.progress_rhs p{
+  font-size: 17px;
+  font-family: Inter Bold;
+  color: #C8C8C8;
+
+}
+.progress_rhs a{
+  color: #fff;
+  font-family: Inter Regular;
+  background: linear-gradient(#1E1E1E, #1E1E1E) padding-box,
+  linear-gradient(to right, #D82828, #C8C8C8) border-box;
+  border-radius: 50em;
+  border: 1px solid transparent;
+ font-size: 1.2rem;
+ margin: 30px 0 20px ;
+}
+
+.progress_rhs a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+}
+.clientCard_wrap{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;  
+}
+
+
+
+/* ----> threat section <----- */
+
+.threat_section{
+  width: 100%;
+  padding: 100px 150px;
+  background: #191919;
+}
+.content_container{
+  border: 1px solid #252332;
+    border-radius: 20px;
+    padding: 100px;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #d82828c9 , #191919 50%),url('../assets//images/threat-grid-img.svg');
+}
+
+.thread_text{
+  text-align: center;
+  color: #C8C8C8;
+}
+.thread_text h4{
+  background: #191919;
+  border: 1px solid #c8c8c870;
+  display: inline;
+  padding: 10px 20px;
+  font-family: Inter Light;
+  border-radius: 40px;
+}
+
+.thread_text h1{
+  font-family: Inter Bold;
+  font-size:3.5rem;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.thread_text p{
+  font-family: Inter Regular;
+  font-size:1.3rem;
+  margin: 20px 0 50px 0;
+}
+.thread_text a{
+  font-family: Inter Light;
+  font-size: 17px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.thread_text a{
+  font-family: Inter Regular;
+  background: linear-gradient(#1E1E1E, #1E1E1E) padding-box,
+  linear-gradient(to right, #D82828, #C8C8C8) border-box;
+  border-radius: 50em;
+  border: 1px solid transparent;
 }
 
 
