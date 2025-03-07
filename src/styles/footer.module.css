@@ -1,18 +1,18 @@
-.footer_section{
+.footer_section {
     width: 100%;
     padding: 50px 150px 0;
-    background: linear-gradient(to bottom, #1E1E1E,#742424);
+    background: linear-gradient(to bottom, #1E1E1E, #742424);
     color: #f9f9f9;
 }
 
-.container_info{
+.container_info {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(128, 128, 128, 0.442);
     padding-bottom: 20px;
 }
 
-.footer_text h1{
+.footer_text h1 {
     font-family: Inter Bold;
     color: #f9f9f9;
     font-size: 1.2rem;
@@ -20,7 +20,8 @@
     padding-bottom: 20px;
     text-transform: capitalize;
 }
-.footer_links a{
+
+.footer_links a {
     display: flex;
     padding-bottom: 10px;
     font-size: 15px;
@@ -30,101 +31,103 @@
     text-transform: capitalize;
 }
 
-.footer_links a:hover{
+.footer_links a:hover {
     color: #D82828;
-    
+
 }
 
-.footer_logo h1{
+.footer_logo h1 {
     font-size: 2.2rem;
     font-family: Inter Bold;
 }
 
-.footer_logo h2{
+.footer_logo h2 {
     font-size: 1rem;
     font-family: Inter Regular;
 }
 
-.contact{
-    display: flex;
-    width: 100%;
-    margin-top: 30px;
+.contact {
+    margin: 40px 0 20px;
     /* border-bottom: 1px solid rgba(128, 128, 128, 0.442); */
-    padding-bottom: 20px;
+
 }
 
-.contact_info{
+.contact_info {
     display: flex;
 }
+
 .ourBrand {
-    width:50%;
     font-size: 2.2rem;
     font-family: Inter Bold;
 }
-.contact_text{
-    padding-left: 20px;
-}
-.contact_text h2{
+
+.contact_text h2 {
     font-family: Inter Bold;
     padding-bottom: 20px;
     font-size: 1.1rem;
 }
 
+.contact_text p {
+    text-align: justify;
+    color: rgb(200, 200, 200);
+}
 
-.address{
+.address {
     display: flex;
     align-items: center;
-    padding-bottom:30px;
+    padding-bottom: 30px;
+}
+.email_section {
+    position: relative;
 }
 
-.email_address{
-   display: flex;
-align-items: center;
-margin-top: 30px;
-margin-right: 40px;
-
-}
-
-
-.email_address input{
-    border: 1px solid #D82828;
-    width: 300px;
-    padding:7px;
-}
-.email_address input::placeholder{
-    
-    color: #f9f9f9;
-}
-.email_address span{
-    padding: 11px;
-    cursor: pointer;
-    background: #D82828 ;
-}
-.email_address svg{
+.email_section span {
+    position: absolute;
+    right: 0;
     background: #D82828;
-    font-size: 20px;
-    
+    height: 100%;
 }
 
-.contact_touch{
-    display: flex;
-    padding-top: 20px;
+.email_section span svg {
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 6px;
 }
 
-.contact_touch svg{
+.email_section input {
+    border: 1px solid #D82828;
+    padding: 5px;
+}
+.contact_touch {
+    padding: 30px 0;
+}
+
+.contact_touch h1 {
+    font-family: Inter Bold;
+}
+.contact_touch h1 span {
+    font-family: Inter Regular;
+}
+.contact_touch svg {
     color: #D82828;
-    margin-right: 7px;
-    font-size:2rem;
+    margin-right: 10px;
 }
 
-.touch_items{
-    margin: 0 20px;
-}
-
-.copyright{
+.copyright {
     text-align: center;
-    border-top:1px solid #c8c8c83d;
+    border-top: 1px solid #c8c8c83d;
     padding: 20px 0;
     color: #C8C8C8;
     font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer_section {
+        padding: 20px;
+    }
+
+    .container_info {
+        flex-direction: column;
+    }
 }

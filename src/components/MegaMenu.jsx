@@ -7,12 +7,14 @@ import { IoExtensionPuzzleOutline } from "react-icons/io5";
 import { HiOutlineClipboardDocument } from "react-icons/hi2";
 import brandname from '../assets/images/brand-name.png'
 import brand2 from '../assets/images/brand2.jpg'
+import { Link, NavLink } from "react-router-dom";
 
 const MegaMenu = () => {
   const [openMenu, setOpenMenu] = useState(null);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const menuItems = [
+    
     {
       title: "Services",
       links: ["Warranty", "Support", "Repairs", "Consulting"],
@@ -39,11 +41,6 @@ const MegaMenu = () => {
       menutitle: "software",
     },
     {
-      title: "brands",
-      links: ["About Us", "Careers", "News", "Contact"],
-      menutitle: "software",
-    },
-    {
       title: "pricing",
       links: ["About Us", "Careers", "News", "Contact"],
       menutitle: "software",
@@ -57,7 +54,8 @@ const MegaMenu = () => {
           <div className="flex-shrink-0 text-xl font-bold">Brand</div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6 relative h-[100%]">
+          <div className="hidden md:flex items-center space-x-6 relative h-[100%]">
+          <Link to="/">Home</Link>
             {menuItems.map((item, index) => (
               <div
                 key={index}
@@ -65,6 +63,7 @@ const MegaMenu = () => {
                 onMouseEnter={() => setOpenMenu(index)}
                 onMouseLeave={() => setOpenMenu(null)}
               >
+                
                 <button
                   variant="ghost"
                   className={`${styles.menu_btn} cursor-pointer  flex items-center h-[100%] hover:text-red-600 transition delay-100 duration-300 ease-in-out`}
@@ -82,15 +81,18 @@ const MegaMenu = () => {
                        <div className={styles.menu_link}>
                         <h1> <SlSettings/> software development</h1>
                         <ul className={styles.menu_items}>
-                          <li>Link1</li>
-                          <li>Link1</li>
-                          <li>Link1</li>
-                          <li>Link1</li>
-                          <li>Link1</li>
-                          <li>Link1</li>
+                          <li><Link to={"/singularity"} onClick={()=>setOpenMenu(null)}>Singularity MDR</Link></li>
+                          <li><Link to={"/vigilance"} onClick={()=>setOpenMenu(null)}>Vigilance MDR</Link></li>
+                          <li><Link to={"/watch_tower"} onClick={()=>setOpenMenu(null)}>WatchTower Pro</Link></li>
+                          <li><Link to={"/support_service"} onClick={()=>setOpenMenu(null)}>Support Services</Link></li>
+                          <li><Link to={"/sentinel_one"} onClick={()=>setOpenMenu(null)}>SentinelOne GO</Link></li>
+                          <li></li>
                         </ul>
+                        <div>
+                          
+                        </div>
+                       
                        </div>
-                
                         <div className={styles.menu_link}>
                         <h1><SlPencil /> Track design </h1>
                         <ul className={styles.menu_items}>

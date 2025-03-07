@@ -10,10 +10,10 @@
   /* z-index: 100; */
 }
 
-.hero_heading{
+.hero_heading {
   padding-left: 150px;
   width: 50%;
-  height:100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,6 +28,7 @@
   letter-spacing: 0.9px;
   padding: 10px;
 }
+
 .hero_heading h4 {
   border-image-source: linear-gradient(to left, #0000, red);
 }
@@ -46,6 +47,7 @@
   -webkit-background-clip: text;
   background-clip: text;
 }
+
 .hero_heading p {
   font-family: Inter Regular;
   line-height: 27px;
@@ -64,23 +66,24 @@
 }
 
 /* ----> grid_section <----- */
-.grid_section{
+.grid_section {
   width: 100%;
   height: auto;
   background: #1E1E1E;
 }
-.grid_item{
-  padding:60px 150px;
+
+.grid_item {
+  padding: 60px 150px;
   display: flex;
   justify-content: space-between;
 }
 
 /* ----> featured_section <----- */
 
-.featured_bg{
+.featured_bg {
   width: 100%;
   height: auto;
-  background-image: linear-gradient(#000000d9,#000000e2),url('../assets/images/Tech1.png');
+  background-image: linear-gradient(#000000d9, #000000e2), url('../assets/images/Tech1.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,26 +91,29 @@
   padding: 20px 150px;
 }
 
-.featured_heading{
+.featured_heading {
   padding: 50px 150px;
 }
-.featured_heading h1{
+
+.featured_heading h1 {
   color: #D82828;
   text-align: center;
   font-size: 2rem;
   font-family: Inter Medium;
- padding-bottom: 20px;
+  padding-bottom: 20px;
 
 }
-.featured_heading p{
+
+.featured_heading p {
   color: #C8C8C8;
   text-align: center;
   font-size: 1.1rem;
   font-family: Inter Regular;
   padding: 0 10%;
-  line-height:1.6rem;
+  line-height: 1.6rem;
 }
-.featured_grid{
+
+.featured_grid {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -115,17 +121,19 @@
 
 
 /* ----> company_section <----- */
-.company_section{
+.company_section {
   background: #1E1E1E;
   padding: 50px 150px;
   width: 100%;
   color: #C8C8C8;
 }
-.company_heading{
+
+.company_heading {
   display: flex;
 
 }
-.company_heading h1{
+
+.company_heading h1 {
   font-family: Inter Medium;
   letter-spacing: 1.2px;
   font-size: 17px;
@@ -133,42 +141,49 @@
 }
 
 /* ----> why choose us section <----- */
-.whyChooseUs_section{
+.whyChooseUs_section {
   width: 100%;
   height: auto;
   background-color: transparent;
   background-image: linear-gradient(134deg, #2E1C1C 17%, #191919 33%);
 }
-.chooseUs_container{
-  padding: 100px 150px 0 ;
+
+.chooseUs_container {
+  padding: 100px 150px 0;
   color: #ffff;
   display: flex;
 }
-.chooseUs_heading, .chooseUs_img{
+
+.chooseUs_heading,
+.chooseUs_img {
   width: 50%;
 }
-.chooseUs_heading{
+
+.chooseUs_heading {
   padding-left: 20px;
 }
 
-.chooseUs_heading h1{  
-  font-size:0.9rem;
+.chooseUs_heading h1 {
+  font-size: 0.9rem;
   font-family: Inter Regular;
   letter-spacing: 1.1px;
   border: 1px solid;
   border-image-slice: 1;
   display: inline;
   padding: 7px;
-  
+
 }
-.chooseUs_heading h1{
+
+.chooseUs_heading h1 {
   border-image-source: linear-gradient(to left, #0000, red);
 }
-.chooseUs_heading h2{
+
+.chooseUs_heading h2 {
   font-family: Inter Medium;
   margin: 30px 0;
 }
-.chooseUs_heading p{
+
+.chooseUs_heading p {
   font-size: 15px;
   font-family: Inter Regular;
   line-height: 1.4rem;
@@ -176,30 +191,32 @@
   color: rgb(200, 200, 200);
 }
 
-.card_wrap{
+.card_wrap {
   display: flex;
   width: 100%;
-  flex-wrap: wrap;  
-  margin-top:30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
 
-.chooseUs_img{
+.chooseUs_img {
   text-align: end;
 
 }
-.chooseUs_img img{
+
+.chooseUs_img img {
   float: right;
 }
 
 
 /* ----> progress section <----- */
-.progress_section{
+.progress_section {
   width: 100%;
   background: #1e1e1e;
   position: relative;
 
 }
-.progress_section::before{
+
+.progress_section::before {
   content: '';
   position: absolute;
   top: 0;
@@ -207,94 +224,108 @@
   bottom: 0;
   background-image: url("../assets/images//overlay.png");
   --background-overlay: '';
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 18% auto;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 18% auto;
 }
-.progress_container{
+
+.progress_container {
   display: flex;
   justify-content: space-between;
   padding: 100px 150px 0;
 }
-.progress_lhs, .progress_rhs{
+
+/* .progress_lhs,
+.progress_rhs {
   width: 50%;
-  
-}
-.progress_lhs h1{
-  font-size:3.5rem;
+
+} */
+
+.progress_lhs h1 {
+  font-size: 3.5rem;
   font-family: Inter Bold;
   color: #fff;
 }
-.progress_lhs h1 span, .thread_text span{
+
+.progress_lhs h1 span,
+.thread_text span {
   background-image: linear-gradient(180deg, red 40%, #ffff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
 }
-.progress_lhs figure{
+
+.progress_lhs figure {
   width: 100%;
   height: 70%;
 }
-.progress_lhs figure img{
+
+.progress_lhs figure img {
   width: 100%;
   height: 100%;
 }
-.progress_rhs{
-  padding:20px 0 0 70px;
+
+.progress_rhs {
+  padding: 20px 0 0 70px;
 }
-.progress_rhs p{
+
+.progress_rhs p {
   font-size: 17px;
   font-family: Inter Bold;
   color: #C8C8C8;
 
 }
-.progress_rhs a{
+
+.progress_rhs a {
   color: #fff;
   font-family: Inter Regular;
   background: linear-gradient(#1E1E1E, #1E1E1E) padding-box,
-  linear-gradient(to right, #D82828, #C8C8C8) border-box;
+    linear-gradient(to right, #D82828, #C8C8C8) border-box;
   border-radius: 50em;
   border: 1px solid transparent;
- font-size: 1.2rem;
- margin: 30px 0 20px ;
+  font-size: 1.2rem;
+  margin: 30px 0 20px;
 }
 
-.progress_rhs a{
+.progress_rhs a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   padding: 1rem 2.5rem;
   cursor: pointer;
 }
-.clientCard_wrap{
+
+.clientCard_wrap {
   display: flex;
   width: 100%;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 }
 
 
 
 /* ----> threat section <----- */
 
-.threat_section{
+.threat_section {
   width: 100%;
   padding: 100px 150px;
   background: #191919;
 }
-.content_container{
+
+.content_container {
   border: 1px solid #252332;
-    border-radius: 20px;
-    padding: 100px;
-    position: relative;
-    overflow: hidden;
-    background-image: linear-gradient(180deg, #d82828c9 , #191919 50%),url('../assets//images/threat-grid-img.svg');
+  border-radius: 20px;
+  padding: 100px;
+  position: relative;
+  overflow: hidden;
+  background-image: linear-gradient(180deg, #d82828c9, #191919 50%), url('../assets//images/threat-grid-img.svg');
 }
 
-.thread_text{
+.thread_text {
   text-align: center;
   color: #C8C8C8;
 }
-.thread_text h4{
+
+.thread_text h4 {
   background: #191919;
   border: 1px solid #c8c8c870;
   display: inline;
@@ -303,28 +334,30 @@
   border-radius: 40px;
 }
 
-.thread_text h1{
+.thread_text h1 {
   font-family: Inter Bold;
-  font-size:3.5rem;
+  font-size: 3.5rem;
   color: #fff;
   margin-top: 20px;
 }
 
-.thread_text p{
+.thread_text p {
   font-family: Inter Regular;
-  font-size:1.3rem;
+  font-size: 1.3rem;
   margin: 20px 0 50px 0;
 }
-.thread_text a{
+
+.thread_text a {
   font-family: Inter Light;
   font-size: 17px;
   padding: 10px 20px;
   margin-top: 20px;
 }
-.thread_text a{
+
+.thread_text a {
   font-family: Inter Regular;
   background: linear-gradient(#1E1E1E, #1E1E1E) padding-box,
-  linear-gradient(to right, #D82828, #C8C8C8) border-box;
+    linear-gradient(to right, #D82828, #C8C8C8) border-box;
   border-radius: 50em;
   border: 1px solid transparent;
 }
@@ -333,43 +366,3 @@
 
 
 
-@media only screen and (max-width: 600px) {
-  .hero_section {
-    background-size: cover;
-  }
-  .hero_heading {
-    padding: 20px;
-  }
-  .hero_heading h1 {
-    font-size: 3.2rem;
-  }
-
-  /* ---->grid item<---- */
-  .grid_item{
-    flex-direction: column;
-    padding: 20px;
-  }
-
-
-  /* ---->featured section<---- */
-
-  .featured_bg{
-    height: auto;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 10px;
-  }
-  .featured_grid{
-    flex-direction: column;
-    padding: 20px;
-  }
-  .featured_heading{
-    padding: inherit;
-  }
-  .featured_heading p{
-    padding:inherit;
-    text-align: start;
-  }
-  
-}

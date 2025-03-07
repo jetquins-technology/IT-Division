@@ -68,13 +68,16 @@
 }
 .menu_items li{
     padding-bottom:30px;
-    font-family: Inter Regular;
-    color: #C8C8C8;
-    letter-spacing: 1.1px;
+    
     cursor: pointer;
 }
 
-.menu_items li:hover{
+.menu_items li a{
+  font-family: Inter Regular;
+  color: #C8C8C8;
+  letter-spacing: 1.1px;
+}
+.menu_items li a:hover{
   color: #D82828;
 }
 
@@ -92,3 +95,103 @@
     }
    
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .hero_section {
+      background-size: cover;
+      height: auto;
+    }
+  
+    .hero_heading {
+      padding: 20px;
+      width: 60%;
+    }
+  
+    .hero_heading h1 {
+      font-size: 3.2rem;
+    }
+  
+    /* ---->grid item<---- */
+    .grid_item {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+  
+    /* ---->featured section<---- */
+  
+    .featured_bg {
+      height: auto;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 10px;
+    }
+  
+    .featured_grid {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .featured_heading {
+      padding: inherit;
+    }
+  
+    .featured_heading p {
+      padding: inherit;
+      text-align: start;
+    }
+  
+    /* ------->why choose us <------- */
+    .chooseUs_container{
+      flex-direction: column;
+      padding: 20px;
+    }
+    .chooseUs_heading, .chooseUs_img{
+      width: 100%;
+    }
+    .chooseUs_img{
+      margin: auto;
+      width: 400px;
+    }
+    
+    .chooseUs_img img {
+      float: inherit;
+    }
+  
+    /* ---->progress section <----- */
+    .progress_container{
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+    }
+    .progress_lhs,.progress_rhs{
+      width: 100%;
+      text-align: center;
+    }
+    .progress_lhs h1{
+      font-size: 2.5rem;
+      padding-bottom: 20px;
+    }
+    .progress_lhs figure{
+      width: 400px;
+      margin: auto;
+  
+    }
+  
+    .threat_section{
+      padding: 20px ;
+    }
+    .thread_text h1{
+      font-size:2.5rem;
+    }
+    .thread_text p{
+      font-size: 1.1rem;
+    }
+    .content_container{
+      padding:30px 20px;
+    }
+  }
+  

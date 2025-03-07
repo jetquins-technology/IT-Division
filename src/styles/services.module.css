@@ -1,0 +1,116 @@
+.singularity_section{
+    height: calc(100vh - 80px);
+  width: 100%;
+  background-image: linear-gradient(to right, #000000ce, #000000c3),
+    url("../assets/images/hero-img2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffff;
+  position: relative;
+    padding: 100px 150px;    
+}
+
+.heading_text{
+    text-align: center;
+}
+.heading_text h1{
+    font-size: 3.5rem;
+    font-family: Inter Bold;
+    background-image: linear-gradient(180deg, red 40%, #ffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+}
+.heading_text h2{
+    font-size: 2rem;
+    padding: 20px 0;
+    font-family: Inter Medium;
+    letter-spacing: 1.1px;
+}
+.heading_text p{
+    font-size: 1.2rem;
+    font-family: Inter Regular;
+    padding-bottom: 50px;
+}
+.demo_btn button{
+    border: 2px solid red;
+    font-family: Inter Regular;
+    font-size: 1.2rem;
+    padding: 10px 70px;
+    border-radius:7px;
+    cursor: pointer;
+}
+.demo_btn{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.2s ease-in;
+}
+.demo_btn svg{
+    position: absolute;
+    left: 55%;
+    transition: all 0.2s ease-in;
+}
+
+.demo_btn:hover button{
+    background: #D82828;
+}
+.demo_btn:hover svg{
+    left: 56%;
+}
+
+
+
+/* ------------vigilance_section------------ */
+
+.vigilance_section{
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-image: linear-gradient(to right, #000000ab, #000000b1),
+      url("../assets/images/hero-img3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffff;
+    position: relative;
+      padding: 100px 150px;    
+  
+}
+
+
+/* -------------------support_section----------------- */
+.support_section{
+    width: 100%;
+    height: calc(90vh - 80px);
+  background-image: linear-gradient(#000000d9, #000000e2), url('../assets/images/Tech1.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 50px 150px;
+}
+
+.support_text h1{
+    border: 1px solid;
+    border-image-slice: 1;
+    display: inline;
+    font-family: Inter Bold;
+    letter-spacing: 0.9px;
+    padding: 7px;
+    color: #C8C8C8;
+    
+}
+.support_text h1{
+    border-image-source: linear-gradient(to left, #0000, red);
+}
+.support_text h2{
+    font-size: 3rem;
+    font-family: Inter Bold;
+    background-image: linear-gradient(180deg, red 40%, #ffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 30px 0;
+}
