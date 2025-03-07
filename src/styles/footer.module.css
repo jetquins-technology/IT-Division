@@ -1,6 +1,6 @@
 .footer_section{
     width: 100%;
-    padding: 50px 150px;
+    padding: 50px 150px 0;
     background: linear-gradient(to bottom, #1E1E1E,#742424);
     color: #f9f9f9;
 }
@@ -49,7 +49,7 @@
     display: flex;
     width: 100%;
     margin-top: 30px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.442);
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.442); */
     padding-bottom: 20px;
 }
 
@@ -74,6 +74,7 @@
 .address{
     display: flex;
     align-items: center;
+    padding-bottom:30px;
 }
 
 .email_address{
@@ -118,4 +119,12 @@ margin-right: 40px;
 
 .touch_items{
     margin: 0 20px;
+}
+
+.copyright{
+    text-align: center;
+    border-top:1px solid #c8c8c83d;
+    padding: 20px 0;
+    color: #C8C8C8;
+    font-size: 14px;
 }

@@ -86,18 +86,32 @@ function Footer() {
 
         <div className={styles.contact_touch}>
           <div className="flex items-center">
-          <SlLocationPin className=" text-3xl"/>
-            <h1> Office Address <span className="block">99th, Arround St. Pku City, 28292, </span></h1>
+            <SlLocationPin className=" text-3xl" />
+            <h1>
+              {" "}
+              Office Address{" "}
+              <span className="block">99th, Arround St. Pku City, 28292, </span>
+            </h1>
           </div>
           <div className={`${styles.touch_items} flex items-center`}>
-          <IoCallOutline className="text-red-400 text-3xl"/>
-            <h1> Conatct  <span className="block">+(827) 123 - 456 - 7891</span></h1>
+            <IoCallOutline className="text-red-400 text-3xl" />
+            <h1>
+              {" "}
+              Conatct <span className="block">+(827) 123 - 456 - 7891</span>
+            </h1>
           </div>
           <div className="flex items-center">
-          <LuMailOpen  className="text-red-400 text-3xl"/>
-            <h1> Mail Us <span className="block">info@cybersecurity.com</span></h1>
+            <LuMailOpen className="text-red-400 text-3xl" />
+            <h1>
+              {" "}
+              Mail Us <span className="block">info@cybersecurity.com</span>
+            </h1>
           </div>
         </div>
+      </div>
+
+      <div className={styles.copyright}>
+        <h1>Copyright © Cybersecurity 2023. All rights reserved</h1>
       </div>
     </footer>
   );
