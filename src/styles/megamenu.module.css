@@ -1,0 +1,94 @@
+.megamenu{
+   position: relative;
+   z-index: 10000;
+   padding: 9px 150px;
+   background: #000;
+   color: #fff;
+}
+
+.submenu{
+    background-color: transparent;
+    background-image: linear-gradient(134deg, #2E1C1C 17%, #191919 33%);
+    border-radius: 10px;
+    box-shadow: #d828286e 0px 2px 8px 0px;
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    right: 0%;
+    top:70px;
+    padding: 50px 150px;
+}
+.menu_btn{
+    padding: 0 20px !important; 
+    text-transform: capitalize;
+}
+
+.demoBtn button {
+    border: 2px solid red;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    transition: all 0.2s ease-in;
+    letter-spacing: 0.7px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .demoBtn button:hover {
+    background: red;
+  }
+
+  .submenuLink{
+    padding:10px 10px;
+    transition: all 0.2s ease-in-out;
+   
+  }
+
+  .megamenu_container{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_link h1{
+    font-family: Inter Bold;
+    font-size:1.1rem;
+    display: flex;
+    color: #D82828;
+}
+.menu_link h1 svg{
+    margin-right:7px;
+    font-size: 1.2rem;
+}
+
+.menu_items{
+    list-style-type: none;
+    margin-top: 40px;
+    text-align: center;
+}
+.menu_items li{
+    padding-bottom:30px;
+    font-family: Inter Regular;
+    color: #C8C8C8;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
+
+.menu_items li:hover{
+  color: #D82828;
+}
+
+
+
+
+
+
+  @media only screen and (max-width: 768px){
+    .demoBtn{
+      display: none;
+    }
+    .megamenu{
+      padding: 10px 20px;
+    }
+   
+  }

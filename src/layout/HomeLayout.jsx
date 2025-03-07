@@ -1,12 +1,17 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+
 import { Outlet } from 'react-router-dom'
+
+import MegaMenu from '../components/MegaMenu'
+import Footer from '../components/Footer'
+
 
 function HomeLayout() {
   return (
     <div>
-        <Navbar/>
+        <MegaMenu />
         <Outlet/>
+        <Footer/>
     </div>
   )
 }

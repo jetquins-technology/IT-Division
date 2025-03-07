@@ -28,6 +28,8 @@ function Home() {
   return (
     <main>
       {/* -----> Hero Section <----- */}
+    
+
       <section className={styles.hero_section}>
         <div className={styles.hero_heading}>
           <h4>Your trusted cybersecurity partner</h4>
@@ -87,7 +89,7 @@ function Home() {
       </section>
 
     {/* -----> industry pioneers section <----- */}
-    <section className={styles.company_section}>
+    {/* <section className={styles.company_section}>
         <div className={styles.company_heading}>
           <h1>Trusted by industry pioneers</h1>
           <div>
@@ -95,7 +97,7 @@ function Home() {
           </div>
         </div>
 
-    </section>
+    </section> */}
 
 
      {/* -----> why choose us section <----- */}
@@ -154,7 +156,6 @@ function Home() {
 
         </div>
     </section>
-
     </main>
   );
 }

@@ -1,0 +1,121 @@
+.footer_section{
+    width: 100%;
+    padding: 50px 150px;
+    background: linear-gradient(to bottom, #1E1E1E,#742424);
+    color: #f9f9f9;
+}
+
+.container_info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.442);
+    padding-bottom: 20px;
+}
+
+.footer_text h1{
+    font-family: Inter Bold;
+    color: #f9f9f9;
+    font-size: 1.2rem;
+    letter-spacing: 1.1px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.footer_links a{
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: Inter Light;
+    text-transform: capitalize;
+}
+
+.footer_links a:hover{
+    color: #D82828;
+    
+}
+
+.footer_logo h1{
+    font-size: 2.2rem;
+    font-family: Inter Bold;
+}
+
+.footer_logo h2{
+    font-size: 1rem;
+    font-family: Inter Regular;
+}
+
+.contact{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.442);
+    padding-bottom: 20px;
+}
+
+.contact_info{
+    display: flex;
+}
+.ourBrand {
+    width:50%;
+    font-size: 2.2rem;
+    font-family: Inter Bold;
+}
+.contact_text{
+    padding-left: 20px;
+}
+.contact_text h2{
+    font-family: Inter Bold;
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+
+.address{
+    display: flex;
+    align-items: center;
+}
+
+.email_address{
+   display: flex;
+align-items: center;
+margin-top: 30px;
+margin-right: 40px;
+
+}
+
+
+.email_address input{
+    border: 1px solid #D82828;
+    width: 300px;
+    padding:7px;
+}
+.email_address input::placeholder{
+    
+    color: #f9f9f9;
+}
+.email_address span{
+    padding: 11px;
+    cursor: pointer;
+    background: #D82828 ;
+}
+.email_address svg{
+    background: #D82828;
+    font-size: 20px;
+    
+}
+
+.contact_touch{
+    display: flex;
+    padding-top: 20px;
+}
+
+.contact_touch svg{
+    color: #D82828;
+    margin-right: 7px;
+    font-size:2rem;
+}
+
+.touch_items{
+    margin: 0 20px;
+}
