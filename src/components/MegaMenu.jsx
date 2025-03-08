@@ -401,7 +401,7 @@ const MegaMenu = () => {
                         </div>
                         <div className={styles.menu_link}>
                           <h1>
-                            Explore <HiOutlineSearchCircle size={25} />{" "}
+                            Explore <HiOutlineSearchCircle size={25} />
                           </h1>
                           <ul className={styles.menu_items}>
                             <li>

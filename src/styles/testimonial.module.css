@@ -1,0 +1,15 @@
+.testimonial_test{
+    padding: 20px;
+    color: #fff !important;
+}
+
+    .testi_name h6,span{
+        margin-left: 20px;
+    }
+    .testi_name{
+        padding: 20px;
+    }
+
+.testi_container{
+    background: #742424;
+}

@@ -45,7 +45,7 @@ function Footer() {
             <div className={styles.footer_links}>
               <a>Skilled Team Members</a>
               <a>Upfront Pricing</a>
-              <a>Innovation Lab              </a>
+              <a>Innovation Lab</a>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className={`${styles.contact} flex flex-wrap gap-4 p-4`}>
+      {/* <div className={`${styles.contact} flex flex-wrap gap-4 p-4`}>
         <div className="w-full sm:w-full md:w-full lg:w-1/5">
           <div className={styles.ourBrand}>
             <h1>Our Brand</h1>
@@ -83,7 +83,7 @@ function Footer() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div
         className={`${styles.contact_touch} flex justify-center md:justify-between items-center  flex-wrap gap-4 p-4`}

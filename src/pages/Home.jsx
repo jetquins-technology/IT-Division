@@ -9,12 +9,6 @@ import LargeCard from "../components/cards/LargeCard";
 import featureImg1 from "../assets/images/featured-img01.png";
 import featureImg2 from "../assets/images/featured-img02.png";
 import featureImg3 from "../assets/images/featured-img03.png";
-import Companies from "../components/sliders/Companies";
-import comImg1 from "../assets/images/industry-img01.svg";
-import comImg2 from "../assets/images/industry-img02.svg";
-import comImg3 from "../assets/images/industry-img03.svg";
-import comImg4 from "../assets/images/industry-img04.svg";
-import comImg5 from "../assets/images/industry-img05.svg";
 import usimg1 from "../assets/images/us-img01.png";
 import usimg2 from "../assets/images/us-img02.png";
 import usimg3 from "../assets/images/us-img03.png";
@@ -22,8 +16,13 @@ import usimg4 from "../assets/images/us-img04.png";
 import ImageCard from "../components/cards/ImageCard";
 import client from "../assets/images/client.png";
 import us_left_img from "../assets/images/cyber-security-left-img.png";
+import us_left_right from "../assets/images/cyber-security-right-img.png";
 import ClientCard from "../components/cards/ClientCard";
-import threatImg from "../assets/images/threat-grid-img.svg";
+import Testimonial from "../components/Testimonial";
+import test1 from "../assets/images/testimonial.jpg";
+import test2 from "../assets/images/testimonial2.jpg";
+import test3 from "../assets/images/testimonial3.jpg";
+import test4 from "../assets/images/testimonial4.jpg";
 function Home() {
   return (
     <main>
@@ -53,7 +52,6 @@ function Home() {
             src={img1}
             heading="consultation"
             para="Expert Cybersecurity Advisory Services to strengthen your security posture, protect your assets, and reduce cyber risk."
-
           />
           <SmallCards
             src={img2}
@@ -79,7 +77,8 @@ function Home() {
           <div className={styles.featured_heading}>
             <h1>What We Offer</h1>
             <p>
-            We provide enterprise-grade cybersecurity solutions to protect businesses from cyber threats, data breaches, and compliance risks
+              We provide enterprise-grade cybersecurity solutions to protect
+              businesses from cyber threats, data breaches, and compliance risks
             </p>
           </div>
           <div className={styles.featured_grid}>
@@ -102,27 +101,24 @@ function Home() {
         </div>
       </section>
 
-      {/* -----> industry pioneers section <----- */}
-      {/* <section className={styles.company_section}>
-        <div className={styles.company_heading}>
-          <h1>Trusted by industry pioneers</h1>
-          <div>
-            <h1>marquee</h1>
-          </div>
-        </div>
-
-    </section> */}
+     
 
       {/* -----> why choose us section <----- */}
       <section className={styles.whyChooseUs_section}>
         <div className={styles.chooseUs_container}>
           <div className={styles.chooseUs_heading}>
-            <h1>Why To Choose Us</h1>
+            <h1>Why Choose Us?</h1>
             <h2>
-            " We believe Cybersecurity is the ideal-solution, particularly for safeguarding against sophisticated threats like ransomware "
+              Fortifying Security, Powering Innovation—Because Your Digital
+              Future Deserves the Best!
             </h2>
             <p>
-            Our security testing arsenal is equipped with cutting-edge tools, strategically implemented across various domains. Leveraging advanced tools like Semgrep, we identify vulnerabilities in third-party dependencies, enforce rigorous code standards, and strengthen your overall security posture
+              We blend cutting-edge cybersecurity with powerful software
+              development to fortify your digital presence. From robust security
+              solutions to scalable, high-performance applications, we deliver
+              innovation without compromise. Our expert-driven approach ensures
+              proactive threat defense, seamless user experiences, and
+              future-proof technology—all tailored to your needs.
             </p>
 
             <div className={styles.card_wrap}>
@@ -133,7 +129,7 @@ function Home() {
             </div>
           </div>
           <div className={styles.chooseUs_img}>
-            <img src={us_left_img} alt="image" />
+            <img src={us_left_right} alt="image" />
           </div>
         </div>
       </section>
@@ -143,9 +139,9 @@ function Home() {
         <div className={styles.progress_container}>
           <div className={styles.progress_lhs}>
             <h1>
-              We have impactful <span>results</span>{" "}
+              We have Impactful <span>Results</span>
             </h1>
-            <figure >
+            <figure>
               <img src={client} alt="image" />
             </figure>
           </div>
@@ -162,13 +158,51 @@ function Home() {
         </div>
       </section>
 
+      {/* -----> trial section <----- */}
+      
+      <div className={styles.trail_section}>
+      <div className="grid items-center grid-cols-1 md:grid-cols-2 gap-6 p-6">
+        <div className="p-6 rounded-lg shadow-lg">
+          <div className={styles.trail_heading}>
+            <h1 >Why IT Division</h1>
+            <p><span>98% of our clients choose</span> to continue working with us after their trial project</p>
+          </div>
+        </div>
+        <div className=" p-6 rounded-lg shadow-lg">
+       <div className={styles.trailgrid_box}>
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
+          <h1 className={styles.trail_grid}>3x Higher ROI
+            <span className="block"> compared to in-house,
+            as reported by clients.</span>
+          </h1>
+          <h1 className={styles.trail_grid}>Top 1% Talent
+            <span className="block">Expert Software Engineers & Designers</span>
+          </h1>
+          <h1 className={styles.trail_grid}>3x faster
+            <span className="block">time-to-hire compared to industry averages</span>
+          </h1>
+          <h1 className={styles.trail_grid}>10x
+            <span className="block">performance growth fostered by our architects for clients</span>
+          </h1>
+          <h1 className={styles.trail_grid}>10-year
+            <span className="block">client tenure reported on long-term engagements</span>
+          </h1>
+          <h1 className={styles.trail_grid}>90%
+            <span className="block">budget savings achieved by clients thanks to our solutions</span>
+          </h1>
+          </div>
+       </div>
+        </div>
+      </div>
+      </div>
+
       {/* -----> threat section <----- */}
       <section className={styles.threat_section}>
         <div className={styles.content_container}>
           <div className={styles.thread_text}>
             <h4>Need Immediate help?</h4>
             <h1>
-              Stay ahead of cyber <span>threats</span>{" "}
+              Stay ahead of cyber <span>threats</span>
             </h1>
             <p>
               Download our comprehensive guide for free and start securing your
@@ -178,10 +212,42 @@ function Home() {
           </div>
         </div>
       </section>
+
+      {/* -----> testimonial section <----- */}
+      <div className={styles.testimonial_section}>
+        <div className={styles.testimonial_container}>
+          <h1 className={styles.test_heading}>Testimonial</h1>
+          <h2>Protecting What Matters—Hear It from Businesses Like Yours!</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
+            <Testimonial
+              name="Jane M."
+              src={test1}
+              place=" SOC Analyst"
+              para="We easily integrated their XDR solution with our SIEM, and it’s improved our overall response time to security threats"
+            />
+            <Testimonial
+              para="With IT Division's 24/7 monitoring and AI-driven security, we reduced cyber threats by 85% and ensured full compliance with GDPR."
+              name="Director"
+              place="ABC Bank"
+              src={test2}
+            />
+            <Testimonial
+              para="Before working with IT Division, we faced multiple security vulnerabilities. Their solutions helped us achieve full compliance and avoid potential breaches."
+              name=" Sarah M"
+              place="CEO, FinanceSecure"
+              src={test3}
+            />
+            <Testimonial
+              para="We needed a secure cloud environment for our startup, and [Your Company] delivered the perfect solution with Zero Trust security"
+              name="Alex P."
+              place=" CEO, CloudInnovate"
+              src={test4}
+            />
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
-
-// filter: brightness(0%) contrast(1%) saturate(100%) blur(0px) hue-rotate(0deg);
 
 export default Home;
