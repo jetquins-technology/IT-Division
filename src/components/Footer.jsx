@@ -34,7 +34,6 @@ function Footer() {
               <a>Support</a>
               <a>Contact Us</a>
               <a>Knowledge Base</a>
-              <a>About Us</a>
               <a>FAQ</a>
               <a>Partnerships</a>
             </div>
@@ -42,14 +41,11 @@ function Footer() {
         </div>
         <div className="w-full sm:w-1/3 md:w-1/6">
           <div className={styles.footer_text}>
-            <h1>Utility</h1>
+            <h1>Our Workflow</h1>
             <div className={styles.footer_links}>
-              <a>Style Guide</a>
-              <a>Instructions</a>
-              <a>Licenses</a>
-              <a>Changelog</a>
-              <a>Utility</a>
-              <a>Coming Soon</a>
+              <a>Skilled Team Members</a>
+              <a>Upfront Pricing</a>
+              <a>Innovation Lab              </a>
             </div>
           </div>
         </div>
@@ -57,12 +53,11 @@ function Footer() {
           <div className={styles.footer_text}>
             <h1>company</h1>
             <div className={styles.footer_links}>
-              <a>Support</a>
-              <a>Contact Us</a>
-              <a>Knowledge Base</a>
-              <a>About Us</a>
-              <a>FAQ</a>
-              <a>Partnerships</a>
+              <a>About us</a>
+              <a>Testimonials</a>
+              <a>Privacy Policy</a>
+              <a>Cookie Policy</a>
+              <a>Terms of service</a>
             </div>
           </div>
         </div>

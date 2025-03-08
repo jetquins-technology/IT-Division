@@ -52,22 +52,23 @@ function Home() {
           <SmallCards
             src={img1}
             heading="consultation"
-            para="Ut ut sapien nec mi tincidunt sagittis faucibus at eros. In egesta."
+            para="Expert Cybersecurity Advisory Services to strengthen your security posture, protect your assets, and reduce cyber risk."
+
           />
           <SmallCards
             src={img2}
-            heading="consultation"
-            para="Ut ut sapien nec mi tincidunt sagittis faucibus at eros. In egesta."
+            heading="Performance"
+            para="A slow website can be a major turnoff, especially in the cybersecurity space where trust and reliability are paramount"
           />
           <SmallCards
             src={img3}
-            heading="consultation"
-            para="Ut ut sapien nec mi tincidunt sagittis faucibus at eros. In egesta."
+            heading="application"
+            para=" Cybersecurity protects your data with real-time threat detection, intelligence, and proactive defenses"
           />
           <SmallCards
             src={img4}
-            heading="consultation"
-            para="Ut ut sapien nec mi tincidunt sagittis faucibus at eros. In egesta."
+            heading="maintenance"
+            para="Highlight new cybersecurity offering remove outdated services or update descriptions with fresh stats."
           />
         </div>
       </section>
@@ -78,26 +79,24 @@ function Home() {
           <div className={styles.featured_heading}>
             <h1>What We Offer</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam
-              veniam, autem facere earum facilis maxime vel? Consectetur itaque
-              distinctio corporis?
+            We provide enterprise-grade cybersecurity solutions to protect businesses from cyber threats, data breaches, and compliance risks
             </p>
           </div>
           <div className={styles.featured_grid}>
             <LargeCard
               src={featureImg1}
-              heading="Security Services"
-              para="Integer tincidunt Cras dapibus bivamus ele mentum semper nisienean vulputate eleife nd tellusenean"
+              heading="Data Privacy"
+              para="Enterprise-grade data privacy and cybersecurity solutions to safeguard sensitive information, prevent cyber threats"
             />
             <LargeCard
               src={featureImg2}
-              heading="Data Privacy"
-              para="Integer tincidunt Cras dapibus bivamus ele mentum semper nisienean vulputate eleife nd tellusenean"
+              heading="Security Testing"
+              para="Our approach helps you patch your app's security vulnerabilities, performance issues, and other anomalies."
             />
             <LargeCard
               src={featureImg3}
-              heading="Industry Certified"
-              para="Integer tincidunt Cras dapibus bivamus ele mentum semper nisienean vulputate eleife nd tellusenean"
+              heading="Industry experts"
+              para="To ensure that our security solutions are both advanced and effective, we follow the slightest changes in the security field. "
             />
           </div>
         </div>
@@ -118,18 +117,12 @@ function Home() {
       <section className={styles.whyChooseUs_section}>
         <div className={styles.chooseUs_container}>
           <div className={styles.chooseUs_heading}>
-            <h1>Why Choose Us</h1>
+            <h1>Why To Choose Us</h1>
             <h2>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia,
-              corrupti!
+            " We believe Cybersecurity is the ideal-solution, particularly for safeguarding against sophisticated threats like ransomware "
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Consequatur error, voluptatem nisi laudantium dignissimos culpa.
-              Molestias deserunt numquam inventore assumenda, perspiciatis
-              exercitationem laborum aliquid earum hic tempore. Dignissimos
-              deserunt laboriosam corrupti facere cumque, mollitia enim saepe,
-              error ratione ex qui.
+            Our security testing arsenal is equipped with cutting-edge tools, strategically implemented across various domains. Leveraging advanced tools like Semgrep, we identify vulnerabilities in third-party dependencies, enforce rigorous code standards, and strengthen your overall security posture
             </p>
 
             <div className={styles.card_wrap}>

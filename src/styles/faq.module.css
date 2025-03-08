@@ -1,0 +1,18 @@
+.faq_btn{
+    padding:20px 20px ;
+    background: #742424;
+    color: #ffff;
+    border-radius: 4px;
+    font-family: Inter Regular;
+    font-size: 1rem;
+}
+
+.faq_ans{
+    background: #191919;
+    color: #fff;
+    padding:25px 20px;
+}
+
+.faq_container{
+    border-bottom: 1px solid #191919;
+}

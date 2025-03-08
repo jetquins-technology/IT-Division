@@ -50,21 +50,24 @@
     display: flex;
     justify-content: space-between;
 }
-.menu_link h1{
+.menu_link h1, .company h1{
     font-family: Inter Bold;
-    font-size:1.1rem;
+    font-size:1rem;
     display: flex;
     color: #D82828;
 }
 .menu_link h1 svg{
-    margin-right:7px;
+    margin:0px 7px;
     font-size: 1.2rem;
 }
-
+.menu_link h1 img{
+  color: #D82828;
+  margin-right:7px;
+}
 .menu_items{
     list-style-type: none;
     margin-top: 40px;
-    text-align: center;
+    /* text-align: center; */
 }
 .menu_items li{
     padding-bottom:30px;
@@ -75,16 +78,16 @@
 .menu_items li a{
   font-family: Inter Regular;
   color: #C8C8C8;
+  font-size: 15px;
   letter-spacing: 1.1px;
 }
 .menu_items li a:hover{
   color: #D82828;
 }
-
-
-
-
-
+.company_text{
+  justify-content: start !important;
+  padding-bottom: 20px;
+}
 
   @media only screen and (max-width: 768px){
     .demoBtn{

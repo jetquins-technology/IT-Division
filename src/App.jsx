@@ -6,7 +6,6 @@ import SingularityMdr from './pages/services/SingularityMdr'
 import VigilanceMdr from './pages/services/VigilanceMdr'
 import WatchTower from './pages/services/WatchTower'
 import SupportServices from './pages/services/SupportServices'
-import SentinelOne from './pages/services/SentinelOne'
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Route path='vigilance' element={<VigilanceMdr/>}/>
       <Route path='watch_tower' element={<WatchTower/>}/>
       <Route path='support_service' element={<SupportServices/>}/>
-      <Route path='sentinel_one' element={<SentinelOne/>}/>
       </Route>
     </Routes>
   )
