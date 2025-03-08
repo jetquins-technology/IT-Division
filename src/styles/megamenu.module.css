@@ -49,6 +49,7 @@
     text-transform: capitalize;
     display: flex;
     justify-content: space-between;
+   
 }
 .menu_link h1, .company h1{
     font-family: Inter Bold;
@@ -74,7 +75,13 @@
     
     cursor: pointer;
 }
-
+.menu_link{
+  border-right: 1px solid #4f4f4f65;
+  padding-right: 20px;
+}
+.menu_link:last-child{
+  border-right: 0px ;
+}
 .menu_items li a{
   font-family: Inter Regular;
   color: #C8C8C8;
@@ -88,6 +95,68 @@
   justify-content: start !important;
   padding-bottom: 20px;
 }
+.platform_text p{
+  display: flex;
+  align-items: center;
+ justify-items: center;
+  font-family: Inter Regular;
+  padding:30px 0px 0px 0;
+  
+
+}
+
+.platform_text p svg{
+  color: #D82828;
+  font-size: 20px;
+  margin-right: 7px;
+}
+.icon_container{
+  margin-top: 40px;
+}
+.company_grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #C8C8C8;
+}
+.award{
+  border-right: 1px solid #D82828;
+  border-bottom: 1px solid #D82828;
+  padding:10px;
+}
+.experience{
+  border-bottom: 1px solid #D82828;
+  padding: 10px;
+}
+.service{
+  border-right: 1px solid #D82828;
+  padding: 10px;
+}
+.growth{
+  padding: 10px;
+}
+.company_grid svg{
+  color: red;
+  font-size:20px;
+}
+
+.company_grid h2{
+  font-family: Inter Bold;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   @media only screen and (max-width: 768px){
     .demoBtn{
@@ -98,6 +167,22 @@
     }
    
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   @media only screen and (max-width: 768px) {
