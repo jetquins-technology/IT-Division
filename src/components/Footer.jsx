@@ -4,6 +4,7 @@ import { BiMailSend } from "react-icons/bi";
 import { SlLocationPin } from "react-icons/sl";
 import { IoCallOutline } from "react-icons/io5";
 import { LuMailOpen } from "react-icons/lu";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className={styles.footer_section}>
@@ -56,6 +57,7 @@ function Footer() {
               <a>About us</a>
               <a>Testimonials</a>
               <a>Privacy Policy</a>
+              <Link to="contact">Contact Us</Link>
               <a>Cookie Policy</a>
               <a>Terms of service</a>
             </div>

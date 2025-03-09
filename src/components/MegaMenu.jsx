@@ -353,11 +353,11 @@ const MegaMenu = () => {
                         <div
                           className={`${styles.menu_link} w-full md:w-full lg:w-3/5`}
                         >
-                          <h1 className={styles.company_text}>
+                          <Link to="/about"  onClick={() => setOpenMenu(null)} className={styles.company_text}>
                             About us <FaArrowRight />
-                          </h1>
-                          <p className="">
-                            <span className="font-bold block">
+                          </Link>
+                          <p className={styles.company_text_p}>
+                            <span className="font-bold block ">
                               We create cloud-first enterprise security
                               solutions
                             </span>

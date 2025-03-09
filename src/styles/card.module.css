@@ -146,8 +146,42 @@
 
 
 
+/* -->contact card<------- */
+.contact_card h1{
+    color: #ffff;
+    font-family: Inter Bold;
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
+.contact_card p{
+    color: #C8C8C8;
+    font-family: Inter Medium;
+    font-size: 1.1rem;
+}
+.contact_card{
+    border-right: 1px solid #FFFFFF33;
+    padding-left: 40px;
+}
+.contact_card:last-child{
+    border: none;
+}
 
+.contact_icon{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #282828;
+    border-radius: 50%;
+    box-shadow: #282828 0px 7px 29px 0px;
+}
 
+.contact_icon svg{
+    color: #fff;
+    font-size:1.7rem;
+}
 
 
 

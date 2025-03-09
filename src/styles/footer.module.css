@@ -107,6 +107,7 @@
 }
 .contact_touch h1 span {
     font-family: Inter Regular;
+    margin-left: 0px;
 }
 .contact_touch svg {
     color: #D82828;

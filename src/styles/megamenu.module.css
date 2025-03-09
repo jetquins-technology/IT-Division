@@ -95,10 +95,28 @@
   justify-content: start !important;
   padding-bottom: 20px;
 }
+.company_text{
+  font-family: Inter Bold;
+    font-size:1rem;
+    display: flex;
+    color: #D82828;
+    align-items: center;
+    transition: all 0.2s ease-in;
+}
+.company_text svg{
+  margin-left: 7px;
+}
+.company_text:hover svg{
+  margin-left: 9px;
+}
 .company_text p{
   color: #C8C8C8;
   text-align: justify;
   letter-spacing: 2rem;
+}
+.company_text_p span{
+  margin-left: 0px;
+
 }
 .company_text p span{
   color: #fff;

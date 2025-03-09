@@ -1,0 +1,92 @@
+.about_section {
+    /* height: calc(70vh - 80px); */
+    width: 100%;
+    background-image: linear-gradient(to right, #000000dd, #000000b6),
+    url("../assets/images/hero-img2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffff;
+    position: relative;
+  }
+
+  .about_banner {
+    padding: 150px 150px;
+  }
+  .about_banner h1 {
+    font-size: 3.7rem;
+    font-family: Inter Bold;
+  }
+
+  .about_banner h1, .contact_header h2 span {
+    background-image: linear-gradient(180deg, red 40%, #ffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-left: 0px;
+  }
+
+  /* -----------------contact_container------------ */
+  .contact_container{
+        background: #1E1E1E;
+        width: 100%;
+        padding: 50px 150px;
+  }
+  .contact_header h1{
+    color: #d82828;
+    font-family: Inter Medium;
+    font-size: 2rem;
+  }
+.contact_header h2{
+    font-size: 3rem;
+    font-family: Inter Bold;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+.contact_header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contact_info{
+    padding: 50px 150px;
+    background: #1E1E1E;
+}
+.conatct_item{
+    /* position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    border-radius: 30px;
+    gap: 30px 100px;
+    margin: -150px 0px 80px; */
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(134deg, #702323 17%, #191919 33%);
+    
+}
+
+.form_section{
+    width: 100%;
+    background-image: linear-gradient(to right, #000000a1, #000000a1),
+    url("../assets/images/contact_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #ffff;
+    position: relative;
+    height: 100vh;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.form_section h1{
+    font-size: 3rem;
+    color: #fff;
+    font-family: Inter Bold;
+    text-align: center;
+}
